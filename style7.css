@@ -1,0 +1,127 @@
+
+body{
+    background-color: #f7a7ad;
+    margin: 0;
+    font-family:Arial, Helvetica, sans-serif;
+}  
+
+.cabecalho{
+    background-image: url(./img/buda2.png);
+    background-size: cover;
+    background-attachment: fixed;
+    height: 600px;;
+    padding-top: 1px;
+    
+}
+
+.div-cabecalho{
+    margin: 100px auto 0  auto;
+    text-align: center;
+    width: 80%;
+    color: azure;
+}
+.div-cabecalho h1{
+    font-size: 50px;
+    text-transform: uppercase;
+    text-shadow: 2px 2 px rgb(0, 0, 0, 0.5);
+}
+
+.div-cabecalho a{
+    background-color: #f36e79;
+    color: azure;
+    border-radius: 5px;
+    text-transform: uppercase;
+    text-decoration: none;
+    padding: 10px;
+}
+.div-cabecalho a:hover{
+    background-color:#f3cfd2;
+    color:#8C2354;
+}
+
+.cabecalho nav ul{
+    margin: 25px 40px 0 0;
+    text-align: right;
+}
+
+.cabecalho nav ul li{
+    list-style-type: none;
+    display: inline-block;
+    margin-left: 15px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-size: 12px;
+}
+
+.cabecalho nav a{
+    color:azure;
+    background-color: #f36e79;
+    text-decoration: none;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+.cabecalho nav a:hover{
+    color: #8C2354;
+    background-color:#f3cfd2;
+}
+
+main{
+    width: 90%;
+    margin: auto;
+    padding: 10px;
+    background-color:#f7a7ad;
+}
+
+.titulo1{
+    background-color: #f3cfd2;
+    text-align: center;
+    margin: 30px auto 5px auto;
+    padding-top: 5px;
+}
+
+.titulo2{
+    background-color: #f3cfd2;
+    text-align: center;
+    margin: 5px auto 5px auto;
+    padding-top: 5px;
+}
+
+.titulo3{
+    background-color: #f3cfd2;
+    text-align: center;
+    margin: 5px auto 30px auto;
+    padding-top: 5px;
+}
+
+main h2 {
+    background-color: #f36e79;
+    color:#8C2354;
+    margin: 10px 10px 10px 10px;
+       
+}
+
+main p{
+    position: relative;
+    text-align: justify;
+    color: #401A28;
+    margin: 10px;
+}
+
+img{
+    float: left;
+    width: 7%;
+    height: 7%;
+    padding-left: 7px;
+}
+
+img:hover{
+   transform: scale(1.1);
+}
+
+footer{
+    text-align: center;
+    background-color: #f36e79;
+    color: azure;
+    padding: 5px 0 5px 0  ;  
+}
